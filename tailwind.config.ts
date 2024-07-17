@@ -12,11 +12,21 @@ const config: Config = {
                 '13': 'repeat(13, minmax(0, 1fr))',
             },
             colors: {
+                'gray-200-custom': 'var(--Gray-COLOR-gray-200, #F2F2F2)',
                 blue: {
                     400: '#2589FE',
                     500: '#0070F3',
                     600: '#2F6FEB',
                 },
+            },
+            fontFamily: {
+                'noto-sans-cjk-kr': ['Noto Sans CJK KR', 'sans-serif'],
+            },
+            letterSpacing: {
+                tightest: '-0.14px',
+            },
+            lineHeight: {
+                tight: '22px', // You can give it a name or use a specific line height class
             },
         },
         keyframes: {
